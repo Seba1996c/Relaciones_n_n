@@ -1,24 +1,13 @@
-# README
+# n a n
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Añadir Devise a tu Gemfile: Debes agregar la línea "gem 'devise'" a tu Gemfile.
 
-Things you may want to cover:
+Instalar la gema Devise: Ejecuta el comando "bundle install" en tu terminal para instalar la gema Devise.
 
-* Ruby version
+Configurar Devise: Después de instalar Devise, debes configurarlo. Ejecuta "rails generate devise:install" en tu terminal.
 
-* System dependencies
+Estos son los pasos básicos para instalar y configurar Devise. Asegúrate de seguir todas las instrucciones que aparecen después de ejecutar "rails generate devise:install", como configurar el correo de confirmación y agregar los mensajes de alerta y notificación a tu aplicación.
 
-* Configuration
+Después de hacer esto, debes generar tu modelo de usuario (o agregar Devise a un modelo existente) con "rails generate devise MODEL", donde MODEL es el nombre de tu modelo de usuario.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Luego, migra tu base de datos con "rails db:migrate". Ahora Devise debería estar instalado y configurado correctamente en tu aplicación.
