@@ -73,4 +73,6 @@ end
 
 gem 'devise'
 gem 'faker'
+gem 'bootstrap', '~> 4.3.1'
+
 
